@@ -104,14 +104,16 @@ pub fn find (name: String, database_:Vec<Item>) -> Option<Vec<Item>> {
     if *item.name == name {
         result.push(item.clone())
     }
-    else if result.is_empty() {
+}
+
+    if result.is_empty() {
         println!("Item not found");
         return None;
     }
+    return Some(result);
    }
-   return Some(result);
    
-}
+
 
 pub fn valid (password: String) -> bool {
     password == "praise027"
