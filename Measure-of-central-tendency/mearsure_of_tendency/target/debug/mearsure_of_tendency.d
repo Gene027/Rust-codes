@@ -1,0 +1,1 @@
+/home/praise/Documents/GitHub/rust-codes/Measure-of-central-tendency/mearsure_of_tendency/target/debug/mearsure_of_tendency: /home/praise/Documents/GitHub/rust-codes/Measure-of-central-tendency/mearsure_of_tendency/src/main.rs
